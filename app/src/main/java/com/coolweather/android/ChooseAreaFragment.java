@@ -153,7 +153,7 @@ public class ChooseAreaFragment extends Fragment {
         if (countyList.size() > 0) {
             dataList.clear();
             for (County county : countyList) {
-                dataList.add(county.getCountyName());
+                dataList.add(county.getCountryName());
             }
             adapter.notifyDataSetChanged();
             listView.setSelection(0);
